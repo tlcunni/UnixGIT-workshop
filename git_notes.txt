@@ -7,3 +7,12 @@ switching branches is a cool way to try different things
 HEAD points to where you are, multiple branches record changes on different timelines
 
 SPIN OFF THEROY!!!!!!!!!!!
+
+
+Remotes way of holding and sharing specific branches, when you have spun off only the branch that you pushed into the remote goes
+
+git push -u origin <branch>
+the first time to tell it where you want to continue to push changes to that branch.
+
+there is no auto save you have to push any time you want changes to go to the remote.
+
