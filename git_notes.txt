@@ -1,3 +1,9 @@
 git mostly makes sense not sure where we are going with the branches though, possibly we can reopen prior instances of the files to try different changes.
 
-My favorite analogy is the evolution one, the individual commits are best described as stages in the changes species as they become different species.
+My favorite analogy is the evolution one, the individual commits are best described as stages in the changes species as they become different specie
+
+switching branches is a cool way to try different things
+
+HEAD points to where you are, multiple branches record changes on different timelines
+
+SPIN OFF THEROY!!!!!!!!!!!
