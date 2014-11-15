@@ -1,0 +1,275 @@
+  410  exit
+  411  cd ..
+  412  whoami
+  413  ls
+  414  cd ..
+  415  cd
+  416  pwd
+  This is about where we started in class, the stuff I deleted was from mucking around with the book and the things I left here at the top are from mucking around with the info I learned in the videos
+  417  clear (moves prompt to the top of the screen, I love this evey time we move on to a different part of the lesson or I just need to start a though process over I hit clear. Going to probably delete most of these below here)
+  418  ls -l
+  420  bash (video command, supposed to open a new session)
+  422  env (environment, shows all the things about how the system is displaying, didn't go over this in class yet this was mucking around with video info)
+  423  clear
+  424  su
+  425  clear
+  426  cd downloads
+  427  ls
+  428  ls Dow
+  429  cd Downloads/
+  430  cd
+  431  clear
+  432  pwd
+  433  nano new.txt (doesn't seem to be on this system yet. Possibly need to look into downloading it not sure)
+  434  clear
+  435  pwd
+  436  cd
+  437  pwd
+  438  cd /
+  439  pwd
+  440  ls
+  441  ls -l
+  442  pwd
+  443  ls -t
+  444  ls
+  445  ls -t -l
+  446  ls -lt
+  447  ls -r
+  448  ls
+  449  ls -trl
+  450  ls -help (tried this on my own, it didn't work but it suggested I try the next line)
+  451  ls --help (this worked mostly but it was super hard to read through, while I was taking notes I went back to command and entered
+  $ ls --help > lshelp.txt and made it a text file, kinda cool not sure it's useful)
+  452  clear
+  453  man ls (much better way to look at how a command works!!) (made this a text file too just to practice)
+  454  jobs (from the video, I like having the manual open for reference and this was an easy way to switch between command and the manual)
+  471  cd build/
+  472  ls
+  473  ls -F
+  474  cd /
+  475  ls
+  476  fg
+  477  ls -g
+  478  ls -author
+  479  ls -a
+  480  fg
+  481  ls -a --group-directories-first
+  482  ls --group-directories-first
+  483  fg
+  484  ls -lfg
+  485  fg
+  486  ls --hide-"/"
+  487  ls --hide-/
+  488  ls --hide-.
+  489  ls --hide-PATTERN
+  490  fg
+  491  ls --color
+  492  fg
+  493  ls -lh
+  494  fg
+  495  jobs
+  496  man cd
+  497  fg
+  498  ls -1
+  499  ls -dR
+  500  ls
+  501  fg
+  502  ls -N
+  503  fg
+  504  ls -v
+  505  cd
+  506  ls -R
+  507  cd /
+  508  pwd
+  509  cd /home/celticthunder
+  510  pwd
+  511  clear
+  512  CD
+  513  clear
+  514  cd Downloads/
+  515  ls
+  516  cat JeAdoreVous.docx.docx 
+  517  less JeAdoreVous.docx.docx 
+  518  clear
+  519  cd
+  520  clear
+  521  ls -l
+  522  cd Desktop/
+  523  ls
+  524  ls -a
+  525  cd .
+  526  ls
+  527  ls -a
+  528  ls -a ..
+  529  cd
+  530  cd /Desktop
+  531  ls
+  532  cd Desktop/.pip
+  533  cd Desktop/
+  534  ls
+  535  ls -a
+  536  ls -a .
+  537  cd ./.
+  538  ls
+  539  ls -a
+  540  cd ./././. (playing with going down through . directories)
+  541  ls -a
+  542  pwd
+  543  cd
+  544  clear
+  545  ls
+  546  ls Desk
+  547  ls Desktop/
+  548  ls Downloads/
+  549  cd temp
+  550  ls
+  551  cd
+  553  cd temp/something/
+  554  owd
+  555  pwd
+  556  d
+  557  cd
+  558  ls temp/something/
+  559  ls temp/
+  560  ls temp/something/
+  561  cd temp/something/
+  562  ls
+  563  cd
+  564  cd temp/something/
+  565  owd
+  566  pwd
+  567  cd../../
+  568  cd ..
+  569  cd Desktop
+  570  ls
+  571  cd
+  572  clear
+  573  ls
+  574  cd build/
+  575  ls
+  576  cd ipython/
+  577  ls
+  578  cd docs
+  579  ls
+  580  ls ../../..
+  581  cd /home/Downloads
+  582  cd /Downloads
+  583  cd ~/Downloads
+  584  ls
+  585  cd build/
+  586  ls
+  587  cd
+  588  cd build/
+  589  cd ipython/
+  590  ls
+  591  cs scripts/
+  592  cd scripts/
+  593  ls
+  594  cd ..
+  595  ls
+  596  cd IPython/
+  597  ls
+  598  cd extensions
+  599  ls
+  600  cd tests/
+  601  ls
+  602  pwd
+  603  cd ~/build/ipython/IPython/external/
+  604  ld
+  605  ls
+  606  cd dec
+  607  cd decorator
+  608  ls
+  609  ls ~/buils
+  610  ls ~/build
+  611  ls ~/build/ipython/
+  612  pwd
+  613  ls
+  614  cd ../../../..
+  615  pwd
+  616  ls
+  617  cd ipython/
+  618  ls
+  619  cd docs/
+  620  ls
+  621  ls source/
+  622  cd source/notebook/
+  623  ls
+  624  less notebook.rst 
+  625  jobs
+  626  fg
+  627  jobs
+  628  fg
+  629  jobs
+  630  pwd
+  631  clear
+  632  ls
+  633  ls -l
+  634  ls -l ..
+  635  cd ../about
+  636  ls 
+  637  ls ../parallel
+  638  cd ../parallel/figs/
+  639  ls
+  640  less simpledag.pdf
+  641  cd
+  642  pwd
+  643  clear
+  644  ls
+  645  cd build/
+  646  ls
+  647  cd ipython/
+  648  ls ~
+  649  ls ~/Desktop/
+  650  ls ~/temp
+  651  ls ~/temp/Python\ things/
+  652  ls /
+  653  ls /lib
+  654  ls /lib -l
+  655  ls -t /lib
+  656  ls /lib -t
+  657  ls /lib/firmware/ -t
+  658  ls /lib/security/
+  659  cd
+  660  cd /
+  661  pwd
+  662  cd
+  663  clear
+  664  ls .
+  665  ls ..
+  666  ls ../..
+  667  cd /usr
+  668  ls
+  669  cd
+  670  ls ...
+  671  ls ..
+  672  ls ../../..
+  673  ls /var
+  674  ls /tmp
+  675  clear
+  676  wd
+  677  pwd
+  678  clear
+  679  man rwd
+  680  man pwd
+  681  clear
+  682  history (everything we have ever done)
+  683  cdcd
+  684  history 10
+  685  history -t
+  686  man history
+  687  history |less
+  688  man less
+  689  fg2
+  690  fg 2
+  691  fg 3
+  692  cd
+  693  jobs
+  694  fg 1
+  695  fg2
+  696  fg 2
+  697  jobs
+  698  fg
+  699  history > moving_around.txt
+
+subl opens file with Sublime
