@@ -272,4 +272,19 @@
   698  fg
   699  history > moving_around.txt
 
+wd is working directory
+
 subl opens file with Sublime
+
+can use absolute path to open files in other directories with sublime
+
+
+GIT
+ git init creates an empty repository
+ git status shows the status of the git in this directory
+ git add <file name> adds file to staging
+ git rm --cached<file name> removes the file from staging area
+ git commit -m"notes about what you have changed" creates a fixed point in time for the files in the staging area
+ git log shows the history of the repository in wd
+ git checkout -- <filename> reverts file back to the last git version of file
+ 
