@@ -283,8 +283,13 @@ GIT
  git init creates an empty repository
  git status shows the status of the git in this directory
  git add <file name> adds file to staging
- git rm --cached<file name> removes the file from staging area
+ git rm --cached<file name> removes the file from staging area only used when file has not been commited to git
+ git reset HEAD<file> resets file to last status committed to git.
  git commit -m"notes about what you have changed" creates a fixed point in time for the files in the staging area
  git log shows the history of the repository in wd
  git checkout -- <filename> reverts file back to the last git version of file
- 
+
+
+ I want to see what happens when somthing has been added to git, not committed then edited. 
+
+ It keeps the added version of the file but also shows that you changed it again, gives options to commit first change and also option to add second change
